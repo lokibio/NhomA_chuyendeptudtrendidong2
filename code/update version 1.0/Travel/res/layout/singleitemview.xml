@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<ImageView
+	    android:id="@+id/flag"
+	    android:layout_width="match_parent"
+	    android:layout_height="210dp"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginTop="0dp"
+	    android:padding="1dp" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"        
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rank"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+    
+      <TextView
+        android:id="@+id/countrytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/country"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Địa chỉ :" />
+
+    <TextView
+        android:id="@+id/populationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/countrytext"
+        android:layout_below="@+id/countrytext"
+        android:layout_marginTop="10dp"
+        android:text="Số điện thoại :" />
+ 
+       <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>
